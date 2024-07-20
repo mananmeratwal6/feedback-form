@@ -49,7 +49,7 @@ const AssignmentTwo = () => {
       <div className="data">
         {data.map((item, index) => (
           <div className="storage">
-            <h1 key={index}>{item.name} | {item.department} | {item.rating}</h1>
+            <h2 key={index}>{item.name} {item.department} {item.rating}</h2>
           </div>
         ))}
       </div>
